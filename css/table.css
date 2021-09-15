@@ -1,0 +1,24 @@
+#table {
+    max-width: 39.5cm;
+    height: auto;
+
+
+}
+
+.line {
+    display: flex;
+
+}
+
+.offset {
+    margin-left: auto;
+}
+
+.line > img {
+    padding: 3px;
+    width: 4vw;
+}
+
+.botlines {
+    padding-top: 30px;
+}
