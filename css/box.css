@@ -29,4 +29,5 @@
 
 .div-separation:last-child {
     border-bottom: hidden;
+    text-indent: 1.5em;
 }
