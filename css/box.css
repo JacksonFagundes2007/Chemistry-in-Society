@@ -26,3 +26,7 @@
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.div-separation:last-child {
+    border-bottom: hidden;
+}

@@ -1,0 +1,30 @@
+#E1,
+#E3,
+#E6,
+#E7,
+#E9,
+#E11,
+#E15,
+#E20,
+#E26 {
+    animation: rgb-color infinite reverse 4s;
+    padding: 0;
+}
+
+@keyframes rgb-color {
+    0% {
+        border: red solid 3px;;
+    }
+    25% {
+        border: yellow solid 3px;
+    }
+    50% {
+        border: green solid 3px
+    }
+    75% {
+        border: blue solid 3px;
+    }
+    100% {
+        border: red solid 3px
+    }
+}
