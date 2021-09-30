@@ -1,3 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 #content {
     display: flex;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(136, 136, 136, 0.8); 
+
 }

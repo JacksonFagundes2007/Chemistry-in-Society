@@ -1,13 +1,26 @@
 #box {
+    color: white;
     background-color: #021327;
 
     box-shadow: -5px 0 20px rgb(0, 0, 0);
-    display: flex;
     margin-left: auto;
-    
-    
 
     width: 25vw;
     height: 100vh;
 
+    overflow-y: scroll;
+}
+
+.div-separation {
+    margin: 10px 0 15px 0; /* top, right, bottom, left */
+    display: block;
+    max-width: 95%;
+    background-color: ;
+    height: 30px;
+    border: black 2px solid;
+}
+
+.div-separation > p {
+    margin-left: 10px;
+    transform: translateY(-50%); 
 }

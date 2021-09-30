@@ -1,8 +1,10 @@
+body {
+    overflow: hidden;
+}
+
 #table {
     max-width: 39.5cm;
     height: auto;
-
-
 }
 
 .line {
