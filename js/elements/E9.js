@@ -1,5 +1,6 @@
 // get box
 
+
 const E9name = document.querySelector('#elementName')
 const E9token = document.querySelector('#token')
 const E9atomicNumber = document.querySelector('#atomicNumber')
@@ -14,6 +15,8 @@ const E9 = document.querySelector('#E9')
 // Inner HTML
 
 E9.addEventListener('click', () => {
+    document.querySelector("#elementImage").setAttribute('src', "")
+
     E9name.innerHTML = "Nome: Fluor";
     E9token.innerHTML = "Símbolo: F";
     E9atomicNumber.innerHTML = "Numero atômico: 9";
