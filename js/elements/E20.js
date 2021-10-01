@@ -10,13 +10,11 @@ const E20content = document.querySelector('#text')
 
 // get Element
 
-const E20 = document.querySelector('#E26')
+const E20 = document.querySelector('#E20')
 
 // Inner HTML
 
 E20.addEventListener('click', () => {
-
-    alert('TESTE')
 
     E20image.setAttribute('src', "/images/elements/020.png")
 
