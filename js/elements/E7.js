@@ -16,7 +16,7 @@ const E7 = document.querySelector('#E7')
 
 E7.addEventListener('click', () => {
 
-    E7image.setAttribute('src', "/images/elements/007.png")
+    E7image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465629129064448/007.png")
     E7name.innerHTML = "Nome: Nitrogênio";
     E7token.innerHTML = "Símbolo:  N";
     E7atomicNumber.innerHTML = "Numero atômico: 7";

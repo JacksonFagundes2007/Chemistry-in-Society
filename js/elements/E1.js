@@ -16,7 +16,7 @@ const E1 = document.querySelector('#E1')
 
 E1.addEventListener('click', () => {
 
-    E1image.setAttribute('src', "/images/elements/001.png")
+    E1image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/893465616755884092/001.png")
     E1name.innerHTML = "Nome: Hidrogênio";
     E1token.innerHTML = "Símbolo: H"; 
     E1atomicNumber.innerHTML = "Numero atômico: 1";

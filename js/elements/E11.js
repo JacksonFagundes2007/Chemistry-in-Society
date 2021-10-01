@@ -16,7 +16,7 @@ const E11 = document.querySelector('#E11')
 
 E11.addEventListener('click', () => {
 
-    E11image.setAttribute('src', "/images/elements/011.png")
+    E11image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465660691197982/011.png")
 
     E11name.innerHTML = "Nome: Sódio"; 
     E11token.innerHTML = "Símbolo: Na";

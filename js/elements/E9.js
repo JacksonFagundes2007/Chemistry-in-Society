@@ -16,7 +16,7 @@ const E9 = document.querySelector('#E9')
 
 E9.addEventListener('click', () => {
 
-    E9image.setAttribute('src', "/images/elements/009.png")
+    E9image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465632161534012/009.png")
     E9name.innerHTML = "Nome: Ferro";
     E9token.innerHTML = "Símbolo: Fe";
     E9atomicNumber.innerHTML = "Numero atômico: 9";

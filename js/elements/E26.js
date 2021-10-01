@@ -16,7 +16,7 @@ const E26 = document.querySelector('#E26')
 
 E26.addEventListener('click', () => {
 
-    E26image.setAttribute('src', "/images/elements/026.png") 
+    E26image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465774927282206/026.png    '") 
     
     E26name.innerHTML = "Nome: Ferro";
     E26token.innerHTML = "Símbolo: Fe"; 

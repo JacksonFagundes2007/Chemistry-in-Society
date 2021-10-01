@@ -16,7 +16,7 @@ const E20 = document.querySelector('#E20')
 
 E20.addEventListener('click', () => {
 
-    E20image.setAttribute('src', "../images/elements/020.png")
+    E20image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465765188091954/020.png")
 
     E20name.innerHTML = "Nome: Cálcio"; 
     E20token.innerHTML = "Símbolo: Ca"; 

@@ -16,7 +16,7 @@ const E6 = document.querySelector('#E6')
 
 E6.addEventListener('click', () => {
 
-    E6image.setAttribute('src', "/images/elements/006.png")
+    E6image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465627971428382/006.png")
     E6name.innerHTML = "Nome: Carbono"; 
     E6token.innerHTML = "Símbolo: C"; 
     E6atomicNumber.innerHTML = "Numero atômico: 6";

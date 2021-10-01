@@ -16,7 +16,7 @@ const E15 = document.querySelector('#E15')
 
 E15.addEventListener('click', () => {
 
-    E15image.setAttribute('src', "/images/elements/015.png")
+    E15image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465665464311808/015.png")
 
     E15name.innerHTML = "Nome: Fosforo"; 
     E15token.innerHTML = "Símbolo: P";

@@ -16,7 +16,7 @@ const E3 = document.querySelector('#E3')
 
 E3.addEventListener('click', () => {
 
-    E3image.setAttribute('src', "/images/elements/003.png")
+    E3image.setAttribute('src', "https://media.discordapp.net/attachments/801974522839826484/893465623600988170/003.png")
     E3name.innerHTML = "Nome: lítio"; 
     E3token.innerHTML = "Símbolo: Li"; 
     E3atomicNumber.innerHTML = "Numero atômico: 3"; 
