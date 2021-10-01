@@ -1,4 +1,5 @@
 #box {
+    margin-top: -49px;
     color: white;
     background-color: #021327;
 
@@ -30,4 +31,10 @@
 .div-separation:last-child {
     border-bottom: hidden;
     text-indent: 1.5em;
+}
+
+.div-image {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px;
 }

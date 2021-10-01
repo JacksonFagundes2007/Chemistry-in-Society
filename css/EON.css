@@ -7,24 +7,19 @@
 #E15,
 #E20,
 #E26 {
-    animation: rgb-color infinite reverse 4s;
-    padding: 0;
+    animation: rgb-color infinite reverse 1s;
+
 }
 
 @keyframes rgb-color {
     0% {
-        border: red solid 3px;;
-    }
-    25% {
-        border: yellow solid 3px;
+        opacity: 100%;
     }
     50% {
-        border: green solid 3px
+      opacity: 70%;
     }
-    75% {
-        border: blue solid 3px;
-    }
+
     100% {
-        border: red solid 3px
+    opacity: 100%;
     }
-}
+} 
