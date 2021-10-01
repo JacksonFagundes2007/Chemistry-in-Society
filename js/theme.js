@@ -14,7 +14,16 @@ if (nightModeStorage) {
 // ao clicar mudaremos as cores
 nightMode.addEventListener('click', () => {
   // adiciona a classe `night-mode` ao html
-  document.documentElement.classList.toggle('night-mode')
+  document.documentElement.classList.toggle('light-mode');
+
+  document.querySelector('#box').classList.toggle('box-light')
+
+  for(let i = 0; i < 4; i++) {
+    document.getElementsByClassName('div-separation')[i].classList.toggle('div-light')
+  }
+
+
+
 
   // se tiver a classe night-mode
   if (document.documentElement.classList.contains('night-mode')) {

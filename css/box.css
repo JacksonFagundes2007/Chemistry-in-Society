@@ -1,13 +1,21 @@
-#box {
-    margin-top: -49px;
+
+.box-night {
     color: white;
     background-color: #021327;
+    box-shadow: 1px 0 20px rgb(0, 0, 0);
+}
 
-    box-shadow: -5px 0 20px rgb(0, 0, 0);
+#box {
+    margin-top: -49px;
+
+
+    
     margin-left: auto;
 
     width: 25vw;
     height: 100vh;
+
+
 
     overflow-y: scroll;
 }
