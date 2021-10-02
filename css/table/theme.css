@@ -1,8 +1,11 @@
 /* Document */
 .light-mode {
-  background-color: whitesmoke;
+  background-color: whitesmoke !important;
 }
 
+.night-mode {
+  background-color: #051932;
+}
 
 /* Box */
 .box-light {
