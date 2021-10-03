@@ -12,7 +12,7 @@ const box = document.querySelector('#box')
 window.addEventListener('load', () => {
         let width = window.innerWidth
 
-    if (width < 1450) {
+    if (width < 1150) {
         content.style.flexDirection = "column"
         box.style.marginLeft = "0"
         box.style.width = "100vw"
