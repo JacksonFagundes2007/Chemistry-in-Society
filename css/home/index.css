@@ -15,10 +15,24 @@ body {
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #title {
     font-size: 40px;
-    margin-top: 50vh;
+
+    color: white;
+}
+
+#logo {
+    width: 241px;
+    height: 382px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#description {
+    margin: 0 25vw 0 25vw;
     color: white;
 }
