@@ -35,4 +35,6 @@ body {
 #description {
     margin: 0 25vw 0 25vw;
     color: white;
+    text-indent: 12pt;
+    font-size: 16pt;
 }
