@@ -4,27 +4,46 @@
 
 #content {
     margin: 0 25vw 0 25vw;
-    display: inline;
+    display: flex;
+    flex-direction: column;
 }
 
-#logo {
+.logo {
     display: inline;
 
-    width: 100px;
-    height: 100px;
+    width: 25%;
+
     object-fit: contain;
+}
+
+.img {
+    width: 100%;
 }
 
 h2 {
   font-family: 'Merriweather', serif;
   color: rgb(77, 77, 77);
-  font-size: 36px;
+  font-size: 16pt;
+  width: 100%;
+}
+
+.text {
+    width: 74%;
 }
 
 h4 {
-    font-family: 'Open sans';
+    font-family: 'Open sans', sans-serif;
     font-size: 12pt;
     color: #808080;
     word-spacing: 10px;
     text-indent: 40px;
+}
+
+.sections {
+    margin: 25px 0 25px 0;
+}
+
+.logo,
+.text {
+    display: inline-block;
 }
