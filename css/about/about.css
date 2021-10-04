@@ -4,10 +4,12 @@
 
 #content {
     margin: 0 25vw 0 25vw;
-    display: flex;
+    display: inline;
 }
 
 #logo {
+    display: inline;
+
     width: 100px;
     height: 100px;
     object-fit: contain;
