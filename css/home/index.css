@@ -5,8 +5,22 @@ body {
   font-size: 17px;
 }
 
+/* Scroll */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: whitesmoke;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(136, 136, 136, 0.8); 
+  
+  }
+
 body {
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #content {
@@ -26,8 +40,8 @@ body {
 }
 
 #logo {
-    width: 241px;
-    height: 382px;
+    width: 210px;
+    height: 332px;
     object-fit: cover;
     margin-bottom: 30px;
 }
@@ -35,6 +49,6 @@ body {
 #description {
     margin: 0 25vw 0 25vw;
     color: white;
-    text-indent: 12pt;
+    text-indent: 40px;
     font-size: 16pt;
 }

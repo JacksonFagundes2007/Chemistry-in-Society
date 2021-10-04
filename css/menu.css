@@ -1,5 +1,5 @@
 ul {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif !important;
     list-style-type: none;
     margin: 0 !important;
     padding: 0;
