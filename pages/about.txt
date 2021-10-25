@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+
+    <!-- Menu -->
+    <link href="../css/menu.css" rel="stylesheet" type="text/css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/about/about.css">
+
+    <!-- Outhers -->
+    <link rel="stylesheet" href="../css/settings.css">
+</head>
+<body>
+    <ul>
+        <li><a href="../index.html">Pagina Inicial</a></li>
+        <li><a href="../table.html">Tabela</a></li>
+        <li><a href="contact.html">Contato</a></li>
+        <li><a href="about.html">Sobre</a></li>
+      </ul>
+
+      <section id="content">
+
+          <section class="sections" id="Empresa">
+              <h2>Empresa</h2>
+              <div class="logo"><img class="img" src="https://cdn.discordapp.com/attachments/788844019307905024/894561602706243584/South_Atlantic_Technology.png" alt="Logo"></div>
+                <div class="text">
+                    <h4>
+                      South Atlantic Tecnology é uma empresa de tecnologia criada por Jackson Fagundes, João Paulo Baldan e Miguel Marcelo da Silva, com sede em Curitiba, paraná, que tem como objetivo apresentar por meio de websites assuntos acadêmicos de forma interativa e divertida, tornando sua experiência neste mundo da informática acadêmica inesquecível!
+                    </h4>
+                </div>
+          </section>
+
+          <section class="sections" id="jk">
+              <h2>Jackson Luis Fagundes Schirigatti - Desenvolvedor Senior</h2>
+
+            <div class="logo"><img class="img" src="https://cdn.discordapp.com/attachments/788844019307905024/895271884197867520/JK.png" alt="JK"></div>
+
+              <div class="text">
+                  <h4>
+                    Um dos criadores da South Atlantic Technology, também é aluno do Colégio Nossa senhora do sagrado coração. Apresenta garandes abilidades na ciencia da programação, faz sempre um ótimo trabalho, com muita responsabilidade. este homem esforçado e cheio de dedicação está sem dúvida nenhuma caminhando para um estrelado e brilhante Futuro.
+                  </h4>
+              </div>
+          </section>
+
+          <section class="sections" id="jp">
+              <h2>João Paulo Baldan Ransolin - Desenvolvedor Pleno</h2>
+
+              <div class="logo"><img class="img" src="https://cdn.discordapp.com/attachments/788844019307905024/895272010391879740/JP.png" alt="JP"></div>
+
+              <div class="text">
+                  <h4>
+                    Aluno do Colégio Nossa senhora do sagrado coração, é um dos criadores da South Atlantic Technology, começou a se interessar pela ciência da programação, logo cedo, e com a oportunidade de criar um site com seu colegas de empresa para o trabalho de Iniciação cientifica, não perdeu tempo, e está sempre tentando desenvolver seu conhecimento e buscando melhorar.
+                  </h4>
+              </div>
+          </section>
+
+          <section class="sections" id="mg">
+            <h2>Miguel Marceo da Silva - Escritor</h2>
+
+            <div class="logo"><img class="img" src="https://cdn.discordapp.com/attachments/788844019307905024/895272034035195954/MG.png" alt="MIGUÉ"></div>
+
+            <div class="text">
+                <h4>Outro criador da South Atlantic Technology, é também aluno do Colégio Nossa Senhora do Sagrado Coração, Demostrou grande responsabilidade e maturidade, ao apresentar uma seleção dos melhores textos a respeito dos elementos trabalhados neste website. Com o trabalho ardúo da pesquisa em varios sites, encontrou finalmente a melhor organização, e possibilitou que este site estives completo, e que sem ele, dificilmente isso aconteceria.
+                
+                </h4>
+            </div>
+          </section>
+          <section class="sections"></section>
+      </section>
+</body>
+</html> 
