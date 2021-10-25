@@ -4,7 +4,8 @@ const E19name = document.querySelector('#elementName')
 const E19token = document.querySelector('#token') 
 const E19atomicNumber = document.querySelector('#atomicNumber') 
 const E19atomicMass = document.querySelector('#atomicMass') 
-const E19content = document.querySelector('#text') 
+const E19utility = document.querySelector('#utility') 
+const E19reuse = document.querySelector('#reuse') 
 // get Element 
 const E19 = document.querySelector('#E19') 
 // Inner HTML 
@@ -14,5 +15,6 @@ E19.addEventListener('click', () => {
     E19token.innerHTML = "Símbolo: K";  
     E19atomicNumber.innerHTML = "Numero atômico: 19"; 
     E19atomicMass.innerHTML = "Massa Atômica: 39.098"; 
-    E19content.innerHTML = " O potássio é um metal alcalino muito abundante na natureza que se funde em baixas temperaturas. Esse elemento químico é usado como células fotoelétricas. Esse elemento é mais usado pela indústria quando misturado com outros elementos, daí ele pode ser usado na fabricação de pólvora e em aparelhos de respiração usados por bombeiros e mineiros. Esse elemento é reutilizado na produção de fertilizantes."; 
+    E19utility.innerHTML = "Utilização: O potássio é um metal alcalino muito abundante na natureza que se funde em baixas temperaturas. Esse elemento químico é usado como células fotoelétricas. Esse elemento é mais usado pela indústria quando misturado com outros elementos, daí ele pode ser usado na fabricação de pólvora e em aparelhos de respiração usados por bombeiros e mineiros."; 
+    E19reuse.innerHTML = "Reutilização: Esse elemento é reutilizado na produção de fertilizantes."; 
 })
