@@ -1,0 +1,10 @@
+@media (max-width: 1024px) {
+    #logo {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+    #description {
+        font-size: 12pt;
+    }
+}

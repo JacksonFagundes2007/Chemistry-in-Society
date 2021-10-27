@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
 
 #content {
-    margin: 0 25vw 0 25vw;
+    margin: 0 15vw 0 15vw;
     display: flex;
     flex-direction: column;
 }
@@ -16,15 +16,14 @@
     object-fit: contain;
 }
 
-.img {
-    width: 100%;
+h1 {
+    font-size: 26pt;
 }
 
 h2 {
   font-family: 'Merriweather', serif;
-  color: rgb(77, 77, 77);
-  font-size: 16pt;
-  width: 100%;
+  color: rgba(0, 0, 0, 0.61);
+  font-size: 12pt;
 }
 
 .text {
@@ -37,10 +36,7 @@ h4 {
     color: #808080;
     word-spacing: 10px;
     text-indent: 40px;
-}
 
-.sections {
-    margin: 25px 0 25px 0;
 }
 
 .logo,
