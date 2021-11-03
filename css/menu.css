@@ -1,18 +1,17 @@
-ul {
+#div-menu {
     font-family: 'Quicksand', sans-serif !important;
     list-style-type: none;
     margin: 0 !important;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
   }
   
-  li {
+.btn-menu {
     float: left;
   }
   
-  li a {
+.btn-menu .link-menu {
     display: block;
     color: white;
     text-align: center;
@@ -20,6 +19,6 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  .btn-menu .link-menu:hover {
     background-color: #111;
   }

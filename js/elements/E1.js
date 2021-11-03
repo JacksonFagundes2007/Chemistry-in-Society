@@ -1,4 +1,5 @@
-// get box 
+window.onload = () => {
+    // get box 
 
 const E1image = document.querySelector("#elementImage") 
 const E1name = document.querySelector('#elementName') 
@@ -23,3 +24,4 @@ E1.addEventListener('click', () => {
     E1utility.innerHTML = "Utilização: O hidrogênio é o elemento químico mais leve e abundante de todo o universo. O hidrogênio é utilizado em indústrias para transformar óleos crus em óleos refinados e também no transporte de combustível ( mais especificadamente na segurança)."; 
     E1reuse.innerHTNL = "Reutlização: O Hidrogênio é reutilizado na produção de fertilizantes.";
 })
+}
