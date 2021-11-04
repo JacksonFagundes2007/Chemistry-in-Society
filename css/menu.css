@@ -1,4 +1,4 @@
-#div-menu {
+ul {
     font-family: 'Quicksand', sans-serif !important;
     list-style-type: none;
     margin: 0 !important;
@@ -7,11 +7,11 @@
     background-color: #333;
   }
   
-.btn-menu {
+li {
     float: left;
   }
   
-.btn-menu .link-menu {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -19,6 +19,6 @@
     text-decoration: none;
   }
   
-  .btn-menu .link-menu:hover {
+  li a:hover {
     background-color: #111;
   }
