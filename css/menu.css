@@ -17,6 +17,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: 0 0 0.4vw currentColor;
   }
   
   li a:hover {
