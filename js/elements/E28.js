@@ -11,7 +11,7 @@ const E28 = document.querySelector('#E28')
 // Inner HTML   
 E28.addEventListener('click', () => {    
      
-    E28image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/893465616755884092/001.png")    
+    E28image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/893465777628393532/028.png")    
     E28name.innerHTML = "Nome: Níquel";    
     E28token.innerHTML = "Símbolo: Ni";     
     E28atomicNumber.innerHTML = "Numero atômico: 28";    

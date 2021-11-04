@@ -10,7 +10,7 @@ const E84reuse = document.querySelector('#reuse')
 const E84 = document.querySelector('#E84')  
 // Inner HTML 
 E84.addEventListener('click', () => {  
-    E84image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/893465616755884092/001.png")  
+    E84image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/894302413559836692/084.png")  
     E84name.innerHTML = "Nome: Polônio";  
     E84token.innerHTML = "Símbolo: Po";   
     E84atomicNumber.innerHTML = "Numero atômico: 84";  

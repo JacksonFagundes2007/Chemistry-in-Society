@@ -30,6 +30,13 @@ h2 {
     width: 74%;
 }
 
+p {
+    font-family: 'Open Sans';
+    margin: 10px;
+    text-indent: 1cm;
+    font-size: 13.5pt;
+}
+
 h4 {
     font-family: 'Open sans', sans-serif;
     font-size: 12pt;

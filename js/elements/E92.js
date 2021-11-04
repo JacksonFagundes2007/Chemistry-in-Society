@@ -10,7 +10,7 @@ const E92reuse = document.querySelector('#reuse')
 const E92 = document.querySelector('#E92') 
 // Inner HTML 
 E92.addEventListener('click', () => { 
-    E92image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/893465616755884092/001.png") 
+    E92image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/905918905191645184/092.png") 
     E92name.innerHTML = "Nome: Urânio"; 
     E92token.innerHTML = "Símbolo: U";  
     E92atomicNumber.innerHTML = "Numero atômico: 92"; 

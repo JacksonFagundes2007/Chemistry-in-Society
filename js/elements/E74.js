@@ -10,7 +10,7 @@ const E74reuse = document.querySelector('#reuse')
 const E74 = document.querySelector('#E74')  
 // Inner HTML 
 E74.addEventListener('click', () => {  
-    E74image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/893465616755884092/001.png")  
+    E74image.setAttribute('src', "https://cdn.discordapp.com/attachments/801974522839826484/894302326939090985/074.png")  
     E74name.innerHTML = "Nome: Tungstênio";  
     E74token.innerHTML = "Símbolo: W";   
     E74atomicNumber.innerHTML = "Numero atômico: 74";  
